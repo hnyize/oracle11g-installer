@@ -32,8 +32,6 @@ start_db() {
 		pro Starting with pfile='$pfile' ...
 		startup;
 		alter system register;
-		alter system set "_allow_level_without_connect_by" = true;
-		commit;
 		exit 0
 	EOF
 	while read line; do echo -e "sqlplus: $line"; done
