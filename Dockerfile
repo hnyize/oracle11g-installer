@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER jaspeen
+MAINTAINER hnyize
 
 ADD assets /assets
 
