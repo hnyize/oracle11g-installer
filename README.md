@@ -1,4 +1,13 @@
 # oracle11g-installer
+在jaspeen的脚本基础上增加了centos的中文支持；
+更改了oracle 11g安装的语言为en,zh_CN；
+修改了oracle 11g默认字符集为ZHS16GBK；
+修改了系统配置：alter system set "_allow_level_without_connect_by" = true;  
+
+如果需要修改系统用户密码可以修改setup.sh；
+如果需要修改数据库用户密码和配置可以修改dbca.rsp；
+或者修改初始化脚本entrypoint_oracle.sh；
+
 oracle 11g docker image generator base centos
 copied for jaspeen
 
