@@ -795,7 +795,11 @@ STORAGETYPE=FS
 # Default value : "US7ASCII"
 # Mandatory     : NO
 #-----------------------------------------------------------------------------
+<<<<<<< HEAD
 CHARACTERSET="ZHS16GBK"
+=======
+CHARACTERSET="AL32UTF8"
+>>>>>>> parent of d8ae1b5... change charactset to ZH16GBK
 
 #-----------------------------------------------------------------------------
 # Name          : NATIONALCHARACTERSET
